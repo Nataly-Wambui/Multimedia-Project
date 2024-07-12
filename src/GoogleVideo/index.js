@@ -3,8 +3,8 @@ import './index.css';
 
 const Video=()=>{
     return(
-        <>
-        <h1><span>Wacth</span><span id='red'>Here</span></h1>
+      <div id='g-video'>
+        <h1><span>Watch</span><span id='red'>Here</span></h1>
         <div id='videos'>
             <div id='map'>
     <a href="https://www.loom.com/share/d3e0a92247ef48c88c2d45bdce0a99c8">
@@ -36,8 +36,10 @@ const Video=()=>{
   </div>
 
         </div>
+      </div>
+
         
-        </>
+        
     )
 }
 

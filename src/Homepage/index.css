@@ -9,15 +9,32 @@
 .home{
   color: red;
 }
+
+.responsive-nav{
+  display: flex;
+  gap: 120px;
+  font-weight: bold;
+  font-size: 30px;
+  
+
+}
+
+.responsive-nav a:hover{
+  cursor: pointer;
+  color: maroon;
+}
+
+
 .navigation{
   display: flex;
+  gap: 30%;
   justify-content: space-between;
   align-items: center;
   font-size: large;
   width: 90%;
   padding: 0px 15px;
   color: white;
-  font-family: 'Oldenburg', cursive;
+
   z-index: 2;
 }
 .navigation nav ul {
@@ -40,9 +57,10 @@
 }
 
 #pageWords{
-  font-size: 30px;
+  font-size: 55px;
   color: white;
   width: 70%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: absolute;
   left: 18%;
   bottom: 45%;

@@ -1,0 +1,229 @@
+#videos{
+display: flex;
+gap: 18%;
+border: solid 5px rgb(12, 11, 11);
+height: 850px;
+background-image: url("../imagess/darkmap.jpg");
+border-radius: 5%;
+
+}
+#red{
+    color: maroon;
+}
+#video{
+    height: 500px;
+    width: 750px;
+    border-radius: 5%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+h1{
+    text-align: center;
+    font-size: 46px;
+}
+#map{
+    width: 300px;
+    margin-top: 10%;
+  
+}
+#googlemap{
+    width: 550px;
+    height: 350px;
+    border-radius: 6%;
+    margin-left: 10%;
+}
+#features{
+    width: 300px;
+    margin-top: 20%;
+}
+#googlefeatures{
+    width: 550px;
+    height: 350px;
+    border-radius: 6%;
+    margin-left: 5%;
+}
+#architecture{
+    width: 300px;
+    margin-top: 10%;
+}
+#googlearch{
+    width: 550px;
+    height: 350px;
+    border-radius: 6%;
+}
+
+@media screen and (min-width:0px) and (max-width:300px) {
+    #videos{
+        display: block;
+        gap: 18%;
+        border: solid 5px rgb(12, 11, 11);
+        height: 860px;
+        background-image: url("../imagess/darkmap.jpg");
+        width: 346px;
+        }
+        #red{
+            color: maroon;
+        }
+        #video{
+            height: 500px;
+            width: 750px;
+            border-radius: 5%;
+            margin-left: 5%;
+            margin-top: 3%;
+        }
+        
+        h1{
+            text-align: center;
+            font-size: 46px;
+        }
+        #map{
+            width: 350px;
+            margin-top: 10%; 
+        }
+        #googlemap{
+            width: 300px;
+            height: 200px;
+            border-radius: 6%;
+            margin-left: 6%;
+        }
+        #features{
+            width: 300px;
+            margin-top: 20%;
+        }
+        #googlefeatures{
+            width: 308px;
+            height: 200px;
+            border-radius: 6%;
+            margin-left: 6%;
+        }
+        #architecture{
+            width: 300px;
+            margin-top: 20%;
+        }
+        #googlearch{
+            width: 300px;
+            height: 200px;
+            border-radius: 6%;
+            margin-left: 6%;
+        }
+           
+}
+
+@media screen and (min-width:301px) and (max-width:760px) {
+    #videos{
+        display: block;
+        gap: 18%;
+        border: solid 5px rgb(12, 11, 11);
+        height: 860px;
+        background-image: url("../imagess/darkmap.jpg");
+        
+        }
+        #red{
+            color: maroon;
+        }
+        #video{
+            height: 500px;
+            width: 750px;
+            border-radius: 5%;
+            margin-left: 5%;
+            margin-top: 3%;
+        }
+        
+        h1{
+            text-align: center;
+            font-size: 46px;
+        }
+        #map{
+            width: 350px;
+            margin-top: 10%; 
+        }
+        #googlemap{
+            width: 300px;
+            height: 200px;
+            border-radius: 6%;
+            margin-left: 10%;
+        }
+        #features{
+            width: 300px;
+            margin-top: 20%;
+        }
+        #googlefeatures{
+            width: 308px;
+            height: 200px;
+            border-radius: 6%;
+            margin-left: 10%;
+        }
+        #architecture{
+            width: 300px;
+            margin-top: 20%;
+        }
+        #googlearch{
+            width: 300px;
+            height: 200px;
+            border-radius: 6%;
+            margin-left: 10%;
+        }
+           
+}
+
+@media screen and (min-width:761px) and (max-width:1300px){
+    #videos{
+        display: flex;
+        gap: 13%;
+        border: solid 5px rgb(12, 11, 11);
+        height: 850px;
+        background-image: url("../imagess/darkmap.jpg");
+        border-radius: 5%;
+        width: 1420px;
+        
+        }
+        #red{
+            color: maroon;
+        }
+        #video{
+            height: 500px;
+            width: 750px;
+            border-radius: 5%;
+            margin-left: 5%;
+            margin-top: 3%;
+        }
+        
+        h1{
+            text-align: center;
+            font-size: 56px;
+            margin-left: 50%;
+        }
+        #map{
+            width: 300px;
+            margin-top: 10%;
+          
+        }
+        #googlemap{
+            width: 450px;
+            height: 300px;
+            border-radius: 6%;
+            margin-left: 4%;
+        }
+        #features{
+            width: 300px;
+            margin-top: 20%;
+        }
+        #googlefeatures{
+            width: 450px;
+            height: 300px;
+            border-radius: 6%;
+            margin-left: 1%;
+        }
+        #architecture{
+            width: 300px;
+            margin-top: 10%;
+        }
+        #googlearch{
+            width: 446px;
+            height: 300px;
+            border-radius: 6%;
+            margin-left: -3%;
+        }   
+}
+

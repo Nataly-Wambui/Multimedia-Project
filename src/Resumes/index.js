@@ -14,7 +14,7 @@ const Resumes = () =>{
     const pdfUrl4 = 'https://drive.google.com/file/d/1HqqQxRBqNp9AncOaNH2_eE7v61oVl4pQ/view?usp=sharing'
     const pdfUrl5 = 'https://drive.google.com/file/d/1rMRaX073yOAWLlTmPhDAu6pyhrkN9O28/view?usp=sharing'
     return(
-        <div>
+        <div id='resume'>
         <div className="team">
             <h1>OUR TEAM</h1>
         </div>
@@ -57,7 +57,7 @@ const Resumes = () =>{
             </div>
             <div className='part3'>
                 <h3><b>Our patners</b></h3>
-                <p>Akirachix</p>
+                <p>AkiraChix</p>
             </div>
             <div className='part4'>
                 <h3><b>Privacy</b></h3>

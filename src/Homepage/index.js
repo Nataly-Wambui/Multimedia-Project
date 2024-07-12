@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css"
+import { Link } from "react-scroll";
 
 const Homepage = () => {
   return(
@@ -7,21 +8,21 @@ const Homepage = () => {
 <div className ='navigation'>
   
                <img src ='./Images/logo.png' alt ="" className="logo"></img>
-            <nav>
-                <ul>
-                <li className="home">Home</li>
-                <li >Video</li>
-                <li>Writing</li>
-                <li>Podcast</li>
-                <li>Resume</li>
-                </ul>
+            <nav className="responsive-nav">
+
+             <a><Link activeClass="active" smooth spy to="container">Home</Link></a> 
+             <a><Link activeClass="active" smooth spy to="g-video">Videos</Link></a> 
+             <a><Link activeClass="active" smooth spy to="blog">Blogs</Link></a> 
+             <a><Link activeClass="active" smooth spy to="layout">Podcasts</Link></a> 
+             <a> <Link activeClass="active" smooth spy to="resume">Resumes</Link></a>
+
             </nav>
           
             
            </div>
            <div>
             <h1 id="pageWords">Explore our insightful articles, educational videos, engaging blog posts, and informative podcast episodes now</h1>
-            <button>Explore now</button>
+            <button> <Link activeClass="active" smooth spy to= "blog"> Explore now </Link></button>
            </div>
            </div>
            );

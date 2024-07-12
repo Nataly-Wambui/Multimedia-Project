@@ -97,6 +97,13 @@
 .resume{
     color: white;
 }
+.footer p{
+    color: white;
+}
+.part1{
+    width: 150px;
+    height: 250px;
+}
 
 
 @media screen and (min-width:375px) and (max-width:667px){

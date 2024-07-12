@@ -1,9 +1,13 @@
+
+import './App.css';
+import Video from './GoogleVideo';
 import { BrowserRouter as Router,Route,Routes } from "react-router-dom";
 import Blog from "./Blog";
 import Summary from "./Article";
 
 function App(){
   return(
+    <Video/>  
 <Router>
   <Blog/>
   <Routes>
@@ -11,6 +15,4 @@ function App(){
   </Routes>
 </Router>
   )
-}
-
 export default App;

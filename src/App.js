@@ -14,12 +14,13 @@ function App(){
          <Homepage/>
     <Video/>
     <Blog/>
+    <Routes>
+    <Route path="/read-more" element={<Summary/>}></Route>
+  </Routes>
     <Podcast/>
     <Resumes/>
 
-  <Routes>
-    <Route path="/read-more" element={<Summary/>}></Route>
-  </Routes>
+
 </Router>
    
     </div>

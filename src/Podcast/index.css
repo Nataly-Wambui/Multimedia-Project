@@ -12,6 +12,9 @@
   .about{
     width: 1000px;
   }
+  .layout{
+    margin-top: 8%;
+  }
   .intro{
     display: flex;
     margin: 3%;
@@ -28,12 +31,14 @@
     height: 200px;
     gap: 10%;
     padding: 3%;
-    margin: 2%;
+    margin: 1%;
     border-radius: 20px;
     background: linear-gradient(to right, rgb(136, 32, 32) , rgb(168, 96, 96));
   }
   .description{
     width: 250px;
+    padding-top: auto;
+    padding-bottom: auto;
   }
 .play{
     justify-content: center;
@@ -48,6 +53,7 @@ h6{
 }
 h4{
     color: (13, 13, 13);
+    font-size: 20px;
 }
 h2{
     font-size: 25px;
@@ -57,9 +63,11 @@ h2{
 }
 h3{
     color: (13, 13, 13);
+    font-size: 23px;
 }
-p{
+.para{
     color: rgb(13, 13, 13);
+    font-size: 18px;
 }
 h1{
     text-align: center;

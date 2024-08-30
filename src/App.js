@@ -7,6 +7,7 @@ import Summary from "./Article";
 import Podcast from './Podcast';
 import Resumes from "./Resumes";
 
+
 function App(){
   return(
     <div>
@@ -14,6 +15,7 @@ function App(){
          <Homepage/>
     <Video/>
     <Blog/>
+
     <Routes>
     <Route path="/read-more" element={<Summary/>}></Route>
   </Routes>

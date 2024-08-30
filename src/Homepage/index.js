@@ -14,7 +14,7 @@ const Homepage = () => {
              <a><Link activeClass="active" smooth spy to="g-video">Videos</Link></a> 
              <a><Link activeClass="active" smooth spy to="blog">Blogs</Link></a> 
              <a><Link activeClass="active" smooth spy to="layout">Podcasts</Link></a> 
-             <a> <Link activeClass="active" smooth spy to="resume">Resumes</Link></a>
+             <a> <Link activeClass="active" smooth spy to="resume">Portfolio</Link></a>
 
             </nav>
           
@@ -22,7 +22,7 @@ const Homepage = () => {
            </div>
            <div>
             <h1 id="pageWords">Explore our insightful articles, educational videos, engaging blog posts, and informative podcast episodes now</h1>
-            <button> <Link activeClass="active" smooth spy to= "blog"> Explore now </Link></button>
+            <button className="home-button"> <Link activeClass="active" smooth spy to= "blog"> Explore now </Link></button>
            </div>
            </div>
            );

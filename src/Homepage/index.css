@@ -65,15 +65,21 @@
   left: 18%;
   bottom: 45%;
 }
-button{
+.home-button{
   width: 10%;
   height: 55px;
   border-radius: 20px;
-  background-color: red;
+  background-color: rgb(150, 35, 35);
   font-size: 20px;
   color: white;
   margin-top: 25%;
   margin-left: 20%;
+  cursor: pointer;
+  
+}
+.home-button :hover{
+  cursor: pointer;
+  background-color: aqua;
 }
 .background-image::before {
   content: "";

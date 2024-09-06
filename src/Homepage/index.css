@@ -3,11 +3,8 @@
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(5, 4, 4, 0.9);
+  background-color: rgba(3, 4, 4, 0.9);
   height: 1000px;
-}
-.home{
-  color: red;
 }
 
 .responsive-nav{
@@ -15,16 +12,11 @@
   gap: 120px;
   font-weight: bold;
   font-size: 30px;
-  
-
 }
-
 .responsive-nav a:hover{
   cursor: pointer;
   color: maroon;
 }
-
-
 .navigation{
   display: flex;
   gap: 30%;
@@ -34,7 +26,6 @@
   width: 90%;
   padding: 0px 15px;
   color: white;
-
   z-index: 2;
 }
 .navigation nav ul {
@@ -55,7 +46,6 @@
   width: 170px;
   height: auto;
 }
-
 #pageWords{
   font-size: 55px;
   color: white;
@@ -66,20 +56,22 @@
   bottom: 45%;
 }
 .home-button{
-  width: 10%;
-  height: 55px;
+  width: 9%;
+  height: 45px;
   border-radius: 20px;
   background-color: rgb(150, 35, 35);
   font-size: 20px;
   color: white;
   margin-top: 25%;
-  margin-left: 20%;
+  margin-left: 49%;
   cursor: pointer;
-  
+}
+.home{
+  color: black;
 }
 .home-button :hover{
+  color: black;
   cursor: pointer;
-  background-color: aqua;
 }
 .background-image::before {
   content: "";
@@ -90,7 +82,6 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
 }
-
 @media only screen and(min-width:280px) and (max-width:375px){
   .navigation{
   display: flex;
@@ -103,6 +94,4 @@
   font-family: 'Oldenburg', cursive;
   z-index: 2;
 }
-  
 }
-

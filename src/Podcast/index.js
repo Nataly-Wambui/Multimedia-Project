@@ -40,7 +40,7 @@ function Podcast() {
             <h1>Perfect Voice, Timely Topics</h1>
             <div className='intro'>
                 <div className='about'>
-                    <h2>@TechieVibes</h2>
+                    <h2>@UpileTalks</h2>
                     <h5>Get ready to join us on an exciting ride through our tech journey. We'll be sharing all about the growth we've made, the challenges faced, and the milestones reached along the way. Stay tuned for inspiring stories, valuable insights, and practical tips.</h5>
                 </div>
                 <img className='mic' src='Media/podcast.png' alt='Podcast microphone' />

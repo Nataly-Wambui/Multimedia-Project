@@ -12,9 +12,7 @@ const Blog = () => {
 
             <h1>Available Blogs</h1>
             <div className='container'>
-                <div>
-                    <img className='image' src="Images/bornacrime.jpeg" alt='born a crime picture'/>
-                </div>
+
 
                 <div className='description'>
                     <p className='date'>10.07.24</p>
@@ -26,11 +24,14 @@ const Blog = () => {
                 
 
                 </div>
+                <div>
+                    <img className='image' src="Images/bornacrime.jpeg" alt='born a crime picture'/>
+                </div>
             </div >
 
             <div className='container'>
                 <div>
-                    <img className='image' src="Images/bornacrime.jpeg" alt='trevor'/>
+                    <img className='images' src="Images/Humour.png" alt='trevor'/>
                 </div>
 
                 <div className='description'>

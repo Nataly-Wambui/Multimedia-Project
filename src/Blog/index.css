@@ -37,10 +37,15 @@ h3{
 
 .image{
 width: 250%;
-border-radius: 12px;
+margin-left: -50px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
 }
 
-
+.images{
+  margin-left: -50px;
+background-color: #A01414;
+    }
 
 .date{
     margin-top: 2px;

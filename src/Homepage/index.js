@@ -7,7 +7,7 @@ const Homepage = () => {
     <div id="container">
 <div className ='navigation'>
   
-               <img src ='./Images/logo.png' alt ="" className="logo"></img>
+               <img src ='./Images/Logo.png' alt ="" className="logo"></img>
             <nav className="responsive-nav">
 
              <a><Link activeClass="active" smooth spy to="container">Home</Link></a> 

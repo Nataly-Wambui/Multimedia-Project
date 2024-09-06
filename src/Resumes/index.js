@@ -10,8 +10,6 @@ import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-
-
 const Resumes = () =>{
     const pdfUrl1 = 'https://drive.google.com/file/d/1c7Vzh7w-FNAKaQOhU-Ie44jXKz09cMyM/view?usp=sharing'
     const pdfUrl2 = 'https://drive.google.com/file/d/1pC-ZVRkBH9g_oLOzsUwIGtFbHauVTYd6/view?usp=sharing'
@@ -106,5 +104,4 @@ const Resumes = () =>{
         </div>
     )
   };
-  
   export default Resumes;

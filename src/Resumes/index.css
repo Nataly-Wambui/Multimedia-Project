@@ -101,8 +101,14 @@
     color: white;
 }
 .part1{
-    width: 150px;
-    height: 250px;
+    width: 120px;
+    height: 230px;
+    position: relative;
+    bottom: 20px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
 }
 
 

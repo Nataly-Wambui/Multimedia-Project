@@ -4,7 +4,7 @@ import Nataly from '../images/Natalie.jpg';
 import Faith from '../images/Faith.jpg';
 import Esther from '../images/Esther.jpg';
 import Sharon from '../images/Sharon.jpg';
-import Logo from  '../images/Alogo.png';
+import Logo from  '../images/Logo.png';
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
